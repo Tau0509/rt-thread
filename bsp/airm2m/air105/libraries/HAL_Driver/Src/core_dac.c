@@ -51,7 +51,7 @@ static int32_t DAC_DMADoneCB(void *pData, void *pParam)
         prvDAC.IsBusy = 0;
         prvDAC.Callback(NULL, prvDAC.pParam);
     }
-    return 0;
+
 }
 
 static int32_t DAC_DummyCB(void *pData, void *pParam)
